@@ -11,7 +11,7 @@ import { useState } from "react";
 
 
 const App = () => {
-  const [receiver, setReceiver] = useState("");
+  const [receiver, setReceiver] = useState("0x99A08ac6254dcf7ccc37CeC662aeba8eFA666666");
   return (
     <div className="mx-96 my-4 flex justify-center flex-col">
       <div className="flex justify-center font-semibold text-2xl">
